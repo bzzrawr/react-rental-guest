@@ -1,40 +1,16 @@
-.mediaViewInfo {
-  --web-view-name: Sign in;
-  --web-view-id: Sign_in;
-  --web-scale-on-resize: true;
-  --web-enable-deep-linking: true;
-}
-:root {
-  --web-view-ids: Sign_in;
-}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   border: none;
 }
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+
 .sign-in {
   position: absolute;
   width: 1112px;
   height: 685px;
   background-color: rgba(255, 255, 255, 1);
   overflow: hidden;
-  --web-animation: fadein 0.4s ease-out;
-  --web-action-type: page;
-  --web-action-target: Booking_View.html;
-  cursor: pointer;
-  --web-view-name: Sign in;
-  --web-view-id: Sign_in;
-  --web-scale-on-resize: true;
-  --web-enable-deep-linking: true;
 }
 .greeting {
   left: 50px;
@@ -316,4 +292,90 @@
   left: 50px;
   top: 268px;
   transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.login-layout {
+  position: absolute;
+  width: 1112px;
+  min-height: 834px;
+  background-color: rgba(245, 246, 247, 1);
+  overflow: hidden;
+}
+
+.menu {
+  position: absolute;
+  width: 202.87px;
+  height: 413.698px;
+  left: 31.13px;
+  top: 150px;
+  overflow: visible;
+}
+
+#name-icon {
+  fill: rgba(124, 89, 255, 1);
+}
+.name-icon {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.102));
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  overflow: visible;
+  transform: translate(-31.13px, -150px) matrix(1, 0, 0, 1, 39, 157.8701)
+    rotate(45deg);
+  transform-origin: center;
+}
+
+.acronym {
+  left: 18.87px;
+  top: 14.698px;
+  position: absolute;
+  overflow: visible;
+  width: 19px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#nomadrental-logo {
+  position: absolute;
+  background-image: url('./pages/Assets/img/nomadrental-logo.svg');
+  width: 143.175px;
+  height: 38px;
+  left: 40px;
+  top: 42px;
+  overflow: visible;
+}
+
+.name {
+  left: 7.87px;
+  top: 65.698px;
+  position: absolute;
+  overflow: visible;
+  width: 63px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(38, 38, 38, 1);
+}
+
+.account-type {
+  left: 8.87px;
+  top: 85.698px;
+  position: absolute;
+  overflow: visible;
+  width: 106px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(138, 143, 156, 1);
 }

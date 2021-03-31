@@ -1,11 +1,10 @@
 import React from 'react'
-
+import UserMenu from '../layout/UserMenu'
 
 export default function UserPage() {
     return (
       <div>
-        <h1> Hey there user</h1>
-        <p>Home user profile page</p>
+        <UserMenu/>
       </div>
     )
 }

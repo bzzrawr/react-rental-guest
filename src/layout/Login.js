@@ -23,7 +23,7 @@ export default function Login() {
           </Button></Link>
         </Form>
         <div id="forgot-password">Forgot your password?</div>
-        <div id="sign-up">Don't have an account? <a href="#">Sign up now</a></div>
+        <div id="sign-up">Don't have an account? <a href="/LoginPage">Sign up now</a></div>
       </div>
     )
 }

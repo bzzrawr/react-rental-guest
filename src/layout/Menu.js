@@ -25,7 +25,7 @@ export default function Menu({acronym,name,accType}) {
           </div>
 
           <div className="refer-box">
-          <a href="#">
+          <a href="/Bookings">
             <div id="menu-box">
             <div className="menu-text">
             <svg className="inbox" viewBox="0 64 18 12">
@@ -50,7 +50,7 @@ export default function Menu({acronym,name,accType}) {
 
           <div id="SUPPORT">SUPPORT</div>
           <div className="contact-box">
-          <a href="#">
+          <a href="/Bookings">
             <div id="menu-box">
             <div className="menu-text">
             <svg className="life-ring" viewBox="8 8 16 16">
@@ -61,7 +61,7 @@ export default function Menu({acronym,name,accType}) {
             </div></a>
           </div>
           <div className="FAQ-box">
-          <a href="#">
+          <a href="/Bookings">
             <div id="menu-box">
             <div className="menu-text">
             <svg className="external-link-square" viewBox="0 32 14 14">

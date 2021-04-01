@@ -12,11 +12,11 @@ export default function TopNav() {
         <button className="dropbtn">
           
           <div className="dropdown-content">
-            <a href="#">City A</a>
-            <a href="#">City B</a>
-            <a href="#">City C</a>
-            <a href="#">City D</a>
-            <a href="#">City E</a>
+            <a href="/Bookings">City A</a>
+            <a href="/Account">City B</a>
+            <a href="/">City C</a>
+            <a href="/Bookings">City D</a>
+            <a href="/Account">City E</a>
           </div>
           </button>
         </div>

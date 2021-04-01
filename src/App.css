@@ -379,3 +379,54 @@
   font-size: 14px;
   color: rgba(138, 143, 156, 1);
 }
+
+.booking-box {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.102));
+  position: absolute;
+  overflow: visible;
+  width: 213px;
+  height: 56px;
+  left: 7.87px;
+  top: 145.698px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#booking-box {
+  fill: rgba(138, 143, 156, 1);
+  color: rgba(138, 143, 156, 1);
+  width: 195px;
+  height: 38px;
+  border-radius: 6px;
+}
+
+#booking-box:hover {
+  fill: rgba(255, 255, 255, 1);
+  color: white;
+  background-color: rgba(124, 96, 255, 1);
+  transition-duration: 0.2s;
+}
+
+.bookings {
+  padding: 5% 13px;
+  position: relative;
+  overflow: visible;
+  width: 63px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  /* color: rgba(255, 255, 255, 1); */
+}
+
+.inbox {
+  margin-right: 12px;
+  overflow: visible;
+  width: 18px;
+  height: 12px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}

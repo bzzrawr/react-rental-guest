@@ -732,3 +732,142 @@ input#your-name-form {
 #care-data a {
   color: rgba(22, 142, 234, 1);
 }
+
+#user-country {
+  fill: rgba(255, 255, 255, 1);
+}
+.user-country {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.02));
+  position: absolute;
+  overflow: visible;
+  width: 278px;
+  height: 66px;
+  left: 40px;
+  top: 548px;
+}
+
+#chevron-right_b {
+  fill: rgba(131, 142, 171, 1);
+}
+
+.chevron-right_b {
+  overflow: visible;
+  position: absolute;
+  width: 7.282px;
+  height: 12px;
+  transform: translate(-314px, -110px) matrix(1, 0, 0, 1, 589.9999, 676.9999)
+    rotate(90deg);
+  transform-origin: center;
+  left: 0px;
+  top: 0px;
+}
+
+#Country {
+  left: 40px;
+  top: 519px;
+  position: absolute;
+  overflow: visible;
+  width: 55px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(38, 38, 38, 1);
+}
+
+#user-phone {
+  fill: rgba(255, 255, 255, 1);
+}
+.user-phone {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.02));
+  position: absolute;
+  overflow: visible;
+  width: 278px;
+  height: 66px;
+  left: 330px;
+  top: 548px;
+}
+
+#phone-placeholder {
+  opacity: 0.4;
+  left: 427px;
+  top: 563px;
+  position: absolute;
+  overflow: visible;
+  width: 100px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(131, 142, 171, 1);
+}
+
+#phone-country {
+  opacity: 0.4;
+  fill: rgba(234, 238, 243, 1);
+}
+.phone-country {
+  position: absolute;
+  overflow: visible;
+  width: 83px;
+  height: 48px;
+  left: 330px;
+  top: 548px;
+}
+
+#phone-country-code {
+  left: 374px;
+  top: 563px;
+  position: absolute;
+  overflow: visible;
+  width: 25px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(131, 142, 171, 1);
+}
+
+#country-flag {
+  position: absolute;
+  width: 20px;
+  height: 13.428px;
+  left: 344px;
+  top: 566px;
+  overflow: visible;
+}
+
+#country-placeholder {
+  left: 54px;
+  top: 563px;
+  position: absolute;
+  overflow: visible;
+  width: 57px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(131, 142, 171, 1);
+}
+#forgot-password {
+  left: 257px;
+  top: 657px;
+  position: absolute;
+  overflow: visible;
+  width: 44px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgba(22, 142, 234, 1);
+}

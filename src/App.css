@@ -294,6 +294,19 @@
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
+#chevron-r {
+  fill: rgba(22, 142, 234, 1);
+}
+.chevron-r {
+  overflow: visible;
+  position: absolute;
+  width: 7.282px;
+  height: 12px;
+  left: 0px;
+  top: 204px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
 .login-layout {
   position: absolute;
   width: 1112px;
@@ -395,6 +408,16 @@ a {
 }
 
 #booking-box {
+  fill: rgba(255, 255, 255, 1);
+  color: white;
+  background-color: rgba(124, 96, 255, 1);
+  transition-duration: 0.2s;
+  width: 195px;
+  height: 38px;
+  border-radius: 6px;
+}
+
+#menu-box {
   fill: rgba(138, 143, 156, 1);
   color: rgba(138, 143, 156, 1);
   width: 195px;
@@ -402,14 +425,14 @@ a {
   border-radius: 6px;
 }
 
-#booking-box:hover {
+#menu-box:hover {
   fill: rgba(255, 255, 255, 1);
   color: white;
   background-color: rgba(124, 96, 255, 1);
   transition-duration: 0.2s;
 }
 
-.bookings {
+.menu-text {
   padding: 5% 13px;
   position: relative;
   overflow: visible;
@@ -420,7 +443,6 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  /* color: rgba(255, 255, 255, 1); */
 }
 
 .inbox {
@@ -429,4 +451,193 @@ a {
   width: 18px;
   height: 12px;
   transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.life-ring {
+  margin-right: 13px;
+  margin-left: 1px;
+  overflow: visible;
+  width: 16px;
+  height: 16px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.external-link-square {
+  margin-right: 13px;
+  margin-left: 3px;
+  overflow: visible;
+  width: 14px;
+  height: 14px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.refer-box {
+  position: absolute;
+  overflow: visible;
+  width: 213px;
+  height: 56px;
+  left: 7.87px;
+  top: 214px;
+}
+
+.account-box {
+  position: absolute;
+  overflow: visible;
+  width: 213px;
+  height: 56px;
+  left: 7.87px;
+  top: 250px;
+}
+
+#SUPPORT {
+  left: 7.87px;
+  top: 321.698px;
+  position: absolute;
+  overflow: visible;
+  width: 55px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgba(138, 143, 156, 1);
+}
+
+.contact-box {
+  position: absolute;
+  overflow: visible;
+  width: 213px;
+  height: 56px;
+  left: 7.87px;
+  top: 347px;
+}
+
+.FAQ-box {
+  position: absolute;
+  overflow: visible;
+  width: 213px;
+  height: 56px;
+  left: 7.87px;
+  top: 385px;
+}
+
+.account-layout {
+  position: absolute;
+  width: 640px;
+  height: 841px;
+  left: 314px;
+  top: 110px;
+  overflow: visible;
+}
+
+.booking-layout {
+  position: absolute;
+  width: 640px;
+  height: 662px;
+  left: 314px;
+  top: 110px;
+  overflow: visible;
+}
+
+#Bookings {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 172px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  color: rgba(38, 38, 38, 1);
+}
+
+#bookings-info-1 {
+  left: 0px;
+  top: 95px;
+  position: absolute;
+  overflow: visible;
+  width: 243px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(38, 38, 38, 1);
+}
+
+.booking-layout h3 {
+  left: 0px;
+  top: 139px;
+  position: absolute;
+  overflow: visible;
+  width: 528px;
+  white-space: nowrap;
+  line-height: 22px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(89, 98, 106, 1);
+}
+
+#premium-subscription {
+  left: 14px;
+  top: 204px;
+  position: absolute;
+  overflow: visible;
+  width: 293px;
+  white-space: nowrap;
+  line-height: 22px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(22, 142, 234, 1);
+}
+
+.booking-info {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.102));
+  position: absolute;
+  overflow: visible;
+  width: 658px;
+  height: 421px;
+  left: 0px;
+  top: 259px;
+}
+
+#booking-info {
+  background-color: rgba(255, 255, 255, 1);
+  width: 640px;
+  height: 403px;
+  border-radius: 4px;
+}
+
+#booking-info img {
+  width: 280px;
+  height: 403px;
+  overflow: visible;
+}
+
+#hotel-name {
+  left: 320px;
+  top: 9.2%;
+  position: absolute;
+  overflow: visible;
+  width: 137px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(38, 38, 38, 1);
 }

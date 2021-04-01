@@ -22,7 +22,7 @@ export default function HomePage({greeting,info,learnMore}) {
         <div className="greeting">{greeting}</div>
         <div className="info">{info}</div>
         <div className="Component_1__1">
-          <div id="learnMore"><a >{learnMore}</a></div>
+          <div id="learnMore"><Link to="/Bookings" >{learnMore}</Link></div>
         </div>
 
         <svg className="chevron-right" viewBox="27.494 37.657 7.282 12">

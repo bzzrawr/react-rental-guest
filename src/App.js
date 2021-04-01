@@ -1,16 +1,29 @@
 import React from 'react'
-import {Route,Switch} from 'react-router-dom'
+import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 import HomePage from './pages/HomePage'
-import UserPage from './pages/UserPage'
+import BookingMenu from './layout/BookingMenu'
+import Bookings from './pages/Bookings'
+import Account from './pages/Account'
+import TopNav from './layout/TopNav'
+import Menu from './layout/Menu'
 import './App.css';
+
 
 
 function App() {
   return (
-    <Switch>
-     <Route exact path='/' component={HomePage}/>
-     <Route path ='/:id' component={UserPage}/> 
-    </Switch>
+    <Router>
+      
+      <div className="App">    
+        <Switch>
+          <Route path ='/' exact component={HomePage}/>
+          <Route path ='/Bookings' component={Bookings}/>
+          <Route path ='/Account' component={Account}/>  
+        </Switch>
+        </div>
+    </Router>
+
+    
   );
 }
 

@@ -1,38 +1,944 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+.sign-in {
+  position: absolute;
+  width: 1112px;
+  height: 685px;
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+}
+.greeting {
+  left: 50px;
+  top: 144px;
+  position: absolute;
+  overflow: visible;
+  width: 76px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(38, 38, 38, 1);
+}
+.info {
+  left: 50px;
+  top: 188px;
+  position: absolute;
+  overflow: visible;
+  width: 317px;
+  height: 46px;
+  line-height: 22px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(89, 98, 106, 1);
+}
+#Rectangle_286 {
+  fill: rgba(245, 246, 247, 1);
+}
+.Rectangle_286 {
+  position: absolute;
+  overflow: visible;
+  width: 417px;
+  height: 363px;
+  left: 0px;
+  top: 323px;
+}
+#Email_address {
+  left: 50px;
+  top: 353px;
+  position: absolute;
+  overflow: visible;
+  width: 95px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(38, 38, 38, 1);
+}
+#Rectangle_287 {
+  fill: rgba(255, 255, 255, 1);
+}
+.Rectangle_287 {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.02));
+  position: absolute;
+  overflow: visible;
+  width: 334px;
+  height: 66px;
+  left: 50px;
+  top: 382px;
+}
+#Rectangle_288 {
+  fill: rgba(120, 106, 255, 1);
+}
+.Rectangle_288 {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.02));
+  position: absolute;
+  overflow: visible;
+  width: 334px;
+  height: 66px;
+  left: 50px;
+  top: 547px;
+}
+#Sign_in_p {
+  left: 183px;
+  top: 560px;
+  position: absolute;
+  overflow: visible;
+  width: 52px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+#Rectangle_289 {
+  fill: rgba(255, 255, 255, 1);
+}
+.Rectangle_289 {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.02));
+  position: absolute;
+  overflow: visible;
+  width: 334px;
+  height: 66px;
+  left: 50px;
+  top: 479px;
+}
+#Email {
+  left: 64px;
+  top: 397px;
+  position: absolute;
+  overflow: visible;
+  width: 37px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(149, 152, 154, 1);
+}
+#Password {
+  left: 64px;
+  top: 494px;
+  position: absolute;
+  overflow: visible;
+  width: 64px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(149, 152, 154, 1);
+}
+.key-logo {
+  position: absolute;
   text-align: center;
+  width: 72.585px;
+  height: 72.585px;
+  left: 50px;
+  top: 60px;
+  overflow: visible;
+}
+.inside-logo {
+  position: absolute;
+  width: 72.585px;
+  height: 72.585px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Path_2 {
+  fill: rgba(124, 89, 255, 1);
+}
+.Path_2 {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.102));
+  overflow: visible;
+  position: absolute;
+  width: 51.326px;
+  height: 51.326px;
+  transform: translate(-525.708px, -130px)
+    matrix(1, 0, 0, 1, 536.3378, 140.6299) rotate(45deg);
+  transform-origin: center;
+  left: 0px;
+  top: 0px;
+}
+#key {
+  fill: rgba(255, 255, 255, 1);
+}
+.key {
+  overflow: visible;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 27px;
+  top: 27px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Line_44 {
+  fill: transparent;
+  stroke: rgba(238, 238, 238, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Line_44 {
+  overflow: visible;
+  position: absolute;
+  width: 417px;
+  height: 1px;
+  left: 0.5px;
+  top: 631.5px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Dont_have_an_account_Sign_up_n {
+  left: 91px;
+  top: 647px;
+  position: absolute;
+  overflow: visible;
+  width: 237px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(89, 98, 106, 1);
+}
+#Forgot_your_password {
+  left: 235px;
+  top: 451px;
+  position: absolute;
+  overflow: visible;
+  width: 133px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgba(22, 142, 234, 1);
+}
+#Password_ {
+  left: 50px;
+  top: 450px;
+  position: absolute;
+  overflow: visible;
+  width: 66px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(38, 38, 38, 1);
+}
+#Mask_Group_4 {
+  position: absolute;
+  width: 694.5px;
+  height: 686px;
+  left: 417.5px;
+  top: 0px;
+  overflow: visible;
+}
+.Component_1__1 {
+  position: absolute;
+  width: 292px;
+  height: 19px;
+  left: 64px;
+  top: 264px;
+  overflow: visible;
+}
+#learnMore {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 293px;
+  white-space: nowrap;
+  line-height: 22px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(22, 142, 234, 1);
+}
+#chevron-right {
+  fill: rgba(22, 142, 234, 1);
+}
+.chevron-right {
+  overflow: visible;
+  position: absolute;
+  width: 7.282px;
+  height: 12px;
+  left: 50px;
+  top: 268px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#chevron-r {
+  fill: rgba(22, 142, 234, 1);
+}
+.chevron-r {
+  overflow: visible;
+  position: absolute;
+  width: 7.282px;
+  height: 12px;
+  left: 0px;
+  top: 204px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login-layout {
+  position: absolute;
+  width: 1112px;
+  min-height: 834px;
+  background-color: rgba(245, 246, 247, 1);
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.menu {
+  position: absolute;
+  width: 202.87px;
+  height: 413.698px;
+  left: 31.13px;
+  top: 150px;
+  overflow: visible;
+}
+
+#name-icon {
+  fill: rgba(124, 89, 255, 1);
+}
+.name-icon {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.102));
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  overflow: visible;
+  transform: translate(-31.13px, -150px) matrix(1, 0, 0, 1, 39, 157.8701)
+    rotate(45deg);
+  transform-origin: center;
+}
+
+.acronym {
+  left: 18.87px;
+  top: 14.698px;
+  position: absolute;
+  overflow: visible;
+  width: 19px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#nomadrental-logo {
+  position: absolute;
+  background-image: url('./pages/Assets/img/nomadrental-logo.svg');
+  width: 143.175px;
+  height: 38px;
+  left: 40px;
+  top: 42px;
+  overflow: visible;
+}
+
+.name {
+  left: 7.87px;
+  top: 65.698px;
+  position: absolute;
+  overflow: visible;
+  width: 63px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(38, 38, 38, 1);
+}
+
+.account-type {
+  left: 8.87px;
+  top: 85.698px;
+  position: absolute;
+  overflow: visible;
+  width: 106px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(138, 143, 156, 1);
+}
+
+.booking-box {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.102));
+  position: absolute;
+  overflow: visible;
+  width: 213px;
+  height: 56px;
+  left: 7.87px;
+  top: 145.698px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#booking-box {
+  fill: rgba(255, 255, 255, 1);
   color: white;
+  background-color: rgba(124, 96, 255, 1);
+  transition-duration: 0.2s;
+  width: 195px;
+  height: 38px;
+  border-radius: 6px;
 }
 
-.App-link {
-  color: #61dafb;
+#menu-box {
+  fill: rgba(138, 143, 156, 1);
+  color: rgba(138, 143, 156, 1);
+  width: 195px;
+  height: 38px;
+  border-radius: 6px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#menu-box:hover {
+  fill: rgba(255, 255, 255, 1);
+  color: white;
+  background-color: rgba(124, 96, 255, 1);
+  transition-duration: 0.2s;
+}
+
+.menu-text {
+  padding: 5% 13px;
+  position: relative;
+  overflow: visible;
+  width: 63px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.inbox {
+  margin-right: 12px;
+  overflow: visible;
+  width: 18px;
+  height: 12px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.life-ring {
+  margin-right: 13px;
+  margin-left: 1px;
+  overflow: visible;
+  width: 16px;
+  height: 16px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.external-link-square {
+  margin-right: 13px;
+  margin-left: 3px;
+  overflow: visible;
+  width: 14px;
+  height: 14px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.refer-box {
+  position: absolute;
+  overflow: visible;
+  width: 213px;
+  height: 56px;
+  left: 7.87px;
+  top: 214px;
+}
+
+.account-box {
+  position: absolute;
+  overflow: visible;
+  width: 213px;
+  height: 56px;
+  left: 7.87px;
+  top: 250px;
+}
+
+#SUPPORT {
+  left: 7.87px;
+  top: 321.698px;
+  position: absolute;
+  overflow: visible;
+  width: 55px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgba(138, 143, 156, 1);
+}
+
+.contact-box {
+  position: absolute;
+  overflow: visible;
+  width: 213px;
+  height: 56px;
+  left: 7.87px;
+  top: 347px;
+}
+
+.FAQ-box {
+  position: absolute;
+  overflow: visible;
+  width: 213px;
+  height: 56px;
+  left: 7.87px;
+  top: 385px;
+}
+
+.account-layout {
+  position: absolute;
+  width: 640px;
+  height: 841px;
+  left: 314px;
+  top: 110px;
+  overflow: visible;
+}
+
+.booking-layout {
+  position: absolute;
+  width: 640px;
+  height: 662px;
+  left: 314px;
+  top: 110px;
+  overflow: visible;
+}
+
+#Bookings {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 172px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  color: rgba(38, 38, 38, 1);
+}
+
+#bookings-info-1 {
+  left: 0px;
+  top: 95px;
+  position: absolute;
+  overflow: visible;
+  width: 243px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(38, 38, 38, 1);
+}
+
+.booking-layout h3 {
+  left: 0px;
+  top: 139px;
+  position: absolute;
+  overflow: visible;
+  width: 528px;
+  white-space: nowrap;
+  line-height: 22px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(89, 98, 106, 1);
+}
+
+#premium-subscription {
+  left: 14px;
+  top: 204px;
+  position: absolute;
+  overflow: visible;
+  width: 293px;
+  white-space: nowrap;
+  line-height: 22px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(22, 142, 234, 1);
+}
+
+.booking-info {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.102));
+  position: absolute;
+  overflow: visible;
+  width: 658px;
+  height: 421px;
+  left: 0px;
+  top: 259px;
+}
+
+#booking-info {
+  background-color: rgba(255, 255, 255, 1);
+  width: 640px;
+  height: 403px;
+  border-radius: 4px;
+}
+
+#booking-info img {
+  width: 280px;
+  height: 403px;
+  overflow: visible;
+}
+
+#hotel-name {
+  left: 320px;
+  top: 9.2%;
+  position: absolute;
+  overflow: visible;
+  width: 137px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(38, 38, 38, 1);
+}
+
+#booking-status {
+  left: 346px;
+  top: 17.8%;
+  position: absolute;
+  overflow: visible;
+  width: 167px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(138, 143, 156, 1);
+}
+
+#check-circle {
+  fill: rgba(138, 143, 156, 1);
+}
+.check-circle {
+  overflow: visible;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 320px;
+  top: 18.2%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#hotel-confirmation {
+  left: 346px;
+  top: 24.3%;
+  position: absolute;
+  overflow: visible;
+  width: 219px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(124, 96, 255, 1);
+}
+
+#clock {
+  fill: rgba(124, 96, 255, 1);
+}
+.clock {
+  overflow: visible;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 320px;
+  top: 24.7%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#room-type {
+  left: 320px;
+  top: 43.101%;
+  position: absolute;
+  overflow: visible;
+  width: 143px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(38, 38, 38, 1);
+}
+
+#checkin-date {
+  left: 344px;
+  top: 473px;
+  position: absolute;
+  overflow: visible;
+  width: 92px;
+  white-space: nowrap;
+  line-height: 22px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(138, 143, 156, 1);
+}
+
+#checkin {
+  font-style: normal;
+  font-weight: bold;
+  color: rgba(38, 38, 38, 1);
+}
+
+.calendar-check {
+  background-image: url('./pages/Assets/img/calendar-check.svg');
+  overflow: visible;
+  position: absolute;
+  width: 14px;
+  height: 16px;
+  left: 320px;
+  top: 475px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#reference-no {
+  left: 489px;
+  top: 473px;
+  position: absolute;
+  overflow: visible;
+  width: 67px;
+  white-space: nowrap;
+  line-height: 22px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(138, 143, 156, 1);
+}
+
+.receipt {
+  background-image: url('./pages/Assets/img/receipt.svg');
+  overflow: visible;
+  position: absolute;
+  width: 13.998px;
+  height: 16px;
+  left: 465px;
+  top: 475px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.feedback {
+  background-color: rgba(245, 246, 247, 1);
+  position: absolute;
+  overflow: visible;
+  width: 360px;
+  height: 118px;
+  left: 280px;
+  top: 544px;
+}
+
+#rate-stay {
+  left: 348px;
+  top: 564px;
+  position: absolute;
+  overflow: visible;
+  width: 98px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(66, 183, 42, 1);
+}
+
+#star {
+  background-image: url('./pages/Assets/img/star.svg');
+  overflow: visible;
+  position: absolute;
+  width: 16.717px;
+  height: 16px;
+  left: 320px;
+  top: 566px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#email-property {
+  left: 348px;
+  top: 623px;
+  position: absolute;
+  overflow: visible;
+  width: 127px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(138, 143, 156, 1);
+}
+
+#paperplane {
+  background-image: url('./pages/Assets/img/paper-plane.svg');
+  overflow: visible;
+  position: absolute;
+  width: 16px;
+  height: 16.005px;
+  left: 320px;
+  top: 624px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.pick-city {
+  left: 927px;
+  top: 52px;
+  position: absolute;
+  overflow: visible;
+  width: 90px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(138, 143, 156, 1);
+}
+
+#dropdown-city {
+  fill: rgba(255, 255, 255, 1);
+}
+.dropdown-city {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.039));
+  position: absolute;
+  overflow: visible;
+  width: 60px;
+  height: 60px;
+  left: 1030px;
+  top: 40px;
+}
+
+#bars {
+  background-image: url('./pages/Assets/img/bars.svg');
+  overflow: visible;
+  position: absolute;
+  width: 16px;
+  height: 14px;
+  left: 1043px;
+  top: 54px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.dropbtn {
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  color: transparent;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  left: 1030px;
+  top: 40px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 300px;
+  max-height: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0;
+  overflow: auto;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+}
+
+.dropdown img {
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+
+.login-form {
+  background-color: rgba(245, 246, 247, 1);
+  position: absolute;
+  overflow: visible;
+  width: 417px;
+  height: 363px;
+  left: 0px;
+  top: 323px;
 }

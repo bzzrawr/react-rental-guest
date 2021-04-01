@@ -641,3 +641,304 @@ a {
   font-size: 18px;
   color: rgba(38, 38, 38, 1);
 }
+
+#booking-status {
+  left: 346px;
+  top: 17.8%;
+  position: absolute;
+  overflow: visible;
+  width: 167px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(138, 143, 156, 1);
+}
+
+#check-circle {
+  fill: rgba(138, 143, 156, 1);
+}
+.check-circle {
+  overflow: visible;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 320px;
+  top: 18.2%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#hotel-confirmation {
+  left: 346px;
+  top: 24.3%;
+  position: absolute;
+  overflow: visible;
+  width: 219px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(124, 96, 255, 1);
+}
+
+#clock {
+  fill: rgba(124, 96, 255, 1);
+}
+.clock {
+  overflow: visible;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 320px;
+  top: 24.7%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#room-type {
+  left: 320px;
+  top: 43.101%;
+  position: absolute;
+  overflow: visible;
+  width: 143px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(38, 38, 38, 1);
+}
+
+#checkin-date {
+  left: 344px;
+  top: 473px;
+  position: absolute;
+  overflow: visible;
+  width: 92px;
+  white-space: nowrap;
+  line-height: 22px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(138, 143, 156, 1);
+}
+
+#checkin {
+  font-style: normal;
+  font-weight: bold;
+  color: rgba(38, 38, 38, 1);
+}
+
+.calendar-check {
+  background-image: url('./pages/Assets/img/calendar-check.svg');
+  overflow: visible;
+  position: absolute;
+  width: 14px;
+  height: 16px;
+  left: 320px;
+  top: 475px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#reference-no {
+  left: 489px;
+  top: 473px;
+  position: absolute;
+  overflow: visible;
+  width: 67px;
+  white-space: nowrap;
+  line-height: 22px;
+  margin-top: -4px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(138, 143, 156, 1);
+}
+
+.receipt {
+  background-image: url('./pages/Assets/img/receipt.svg');
+  overflow: visible;
+  position: absolute;
+  width: 13.998px;
+  height: 16px;
+  left: 465px;
+  top: 475px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.feedback {
+  background-color: rgba(245, 246, 247, 1);
+  position: absolute;
+  overflow: visible;
+  width: 360px;
+  height: 118px;
+  left: 280px;
+  top: 544px;
+}
+
+#rate-stay {
+  left: 348px;
+  top: 564px;
+  position: absolute;
+  overflow: visible;
+  width: 98px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(66, 183, 42, 1);
+}
+
+#star {
+  background-image: url('./pages/Assets/img/star.svg');
+  overflow: visible;
+  position: absolute;
+  width: 16.717px;
+  height: 16px;
+  left: 320px;
+  top: 566px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#email-property {
+  left: 348px;
+  top: 623px;
+  position: absolute;
+  overflow: visible;
+  width: 127px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(138, 143, 156, 1);
+}
+
+#paperplane {
+  background-image: url('./pages/Assets/img/paper-plane.svg');
+  overflow: visible;
+  position: absolute;
+  width: 16px;
+  height: 16.005px;
+  left: 320px;
+  top: 624px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.pick-city {
+  left: 927px;
+  top: 52px;
+  position: absolute;
+  overflow: visible;
+  width: 90px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(138, 143, 156, 1);
+}
+
+#dropdown-city {
+  fill: rgba(255, 255, 255, 1);
+}
+.dropdown-city {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.039));
+  position: absolute;
+  overflow: visible;
+  width: 60px;
+  height: 60px;
+  left: 1030px;
+  top: 40px;
+}
+
+#bars {
+  background-image: url('./pages/Assets/img/bars.svg');
+  overflow: visible;
+  position: absolute;
+  width: 16px;
+  height: 14px;
+  left: 1043px;
+  top: 54px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.dropbtn {
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  color: transparent;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  left: 1030px;
+  top: 40px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 300px;
+  max-height: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0;
+  overflow: auto;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+}
+
+.dropdown img {
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+
+.login-form {
+  background-color: rgba(245, 246, 247, 1);
+  position: absolute;
+  overflow: visible;
+  width: 417px;
+  height: 363px;
+  left: 0px;
+  top: 323px;
+}

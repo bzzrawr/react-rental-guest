@@ -1,11 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {Col,Row,Container} from 'react-bootstrap'
-import headerImageBig from './Assets/img/Mask_Group_4@2x.png'
+import headerImageBig from '../pages/Assets/img/Mask_Group_4@2x.png'
 
-export default function HomePage({greeting,info,learnMore}) {
+export default function Header({greeting,info,learnMore}) {
     return (
-      <div className="sign-in">
+      <>
         <div className="key-logo">
           <div className="inside-logo">
             <svg className="Path_2" viewBox="0 0 51.326 51.326">
@@ -31,14 +30,13 @@ export default function HomePage({greeting,info,learnMore}) {
 	      </svg>
 
         <img src={headerImageBig} id="Mask_Group_4" alt="header"/>
+      </>
 
 
-        
-        </div>
     )
 }
 
-HomePage.defaultProps={
+Header.defaultProps={
  greeting: 'Hi there!' ,
  info:'Sign in to manage your listings and booking requests on Nomad Rental',
  learnMore: 'Learn more about our premium subscription'

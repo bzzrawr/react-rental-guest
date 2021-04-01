@@ -520,3 +520,215 @@ input {
   color: rgba(22, 142, 234, 1);
   font-weight: 600;
 }
+
+.user-update-form {
+  background-color: white;
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.102));
+  position: absolute;
+  overflow: visible;
+  width: 640px;
+  height: 585px;
+  left: 0px;
+  top: 256px;
+}
+.overall-layout {
+  position: relative;
+  width: 1112px;
+  min-height: 998px;
+  background-color: rgba(245, 246, 247, 1);
+  overflow: hidden;
+}
+
+#John_Doe {
+  left: 87px;
+  top: 286px;
+  position: absolute;
+  overflow: visible;
+  width: 80px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(38, 38, 38, 1);
+}
+
+#booking-uptodate {
+  left: 88px;
+  top: 320px;
+  position: absolute;
+  overflow: visible;
+  width: 472px;
+  white-space: nowrap;
+  line-height: 21px;
+  margin-top: -3.5px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(89, 98, 106, 1);
+}
+
+#user-edit {
+  background-image: url('../pages/Assets/img/user-edit.svg');
+  overflow: visible;
+  position: absolute;
+  width: 38px;
+  height: 30.401px;
+  left: 30px;
+  top: 286px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#user-edit-form {
+  background-color: rgba(245, 246, 247, 1);
+  position: absolute;
+  overflow: visible;
+  width: 640px;
+  height: 451px;
+  left: 0px;
+  top: 390px;
+}
+
+.user-edit-info {
+  padding-left: 10%;
+}
+
+#name {
+  left: 40px;
+  top: 7%;
+  position: absolute;
+  overflow: visible;
+  width: 77px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(38, 38, 38, 1);
+}
+
+#your-name-form {
+  position: absolute;
+  overflow: visible;
+  width: 260px;
+  height: 48px;
+  left: 40px;
+  top: 8%;
+}
+input#your-name-form {
+  padding-left: 10px !important;
+}
+
+#email-address- {
+  left: 330px;
+  top: 7%;
+  position: absolute;
+  overflow: visible;
+  width: 95px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(38, 38, 38, 1);
+}
+
+#email-address-form {
+  position: absolute;
+  overflow: visible;
+  width: 260px;
+  height: 48px;
+  left: 330px;
+  top: 8%;
+  border: none;
+}
+
+#new-password-form {
+  position: absolute;
+  overflow: visible;
+  width: 260px;
+  height: 48px;
+  left: 330px;
+  bottom: 20%;
+  border: none;
+}
+
+#old-password-form {
+  position: absolute;
+  overflow: visible;
+  width: 260px;
+  height: 48px;
+  left: 40px;
+  bottom: 20%;
+  border: none;
+}
+
+#new-password {
+  left: 330px;
+  bottom: 36.9%;
+  position: absolute;
+  overflow: visible;
+  width: 95px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(38, 38, 38, 1);
+}
+
+#old-password {
+  left: 40px;
+  bottom: 36.9%;
+  position: absolute;
+  overflow: visible;
+  width: 77px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(38, 38, 38, 1);
+}
+
+#update-info {
+  background-color: rgba(120, 106, 255, 1);
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.02));
+  position: absolute;
+  overflow: visible;
+  width: 117px;
+  height: 48px;
+  left: 473px;
+  bottom: 6.5%;
+  border-radius: 5px;
+  font-family: Open Sans;
+  font-weight: 600;
+}
+
+#care-data {
+  left: 253px;
+  top: 777px;
+  position: absolute;
+  overflow: visible;
+  width: 217px;
+  white-space: nowrap;
+  line-height: 24px;
+  margin-top: -5px;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(131, 142, 171, 1);
+}
+
+#care-data a {
+  color: rgba(22, 142, 234, 1);
+}
